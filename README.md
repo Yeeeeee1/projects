@@ -1,6 +1,7 @@
 # projects
 # Курсовой проект
-+ https://rslang-team9-yaroslavbig.netlify.app/
++ [Rslang](https://rslang-team9-yaroslavbig.netlify.app/)
++ [Culture-portal(Angular)](https://culture-portal-poets.netlify.app/home)
 # Проекты делавшиеся недавно
 + [Gem-puzzle](https://yeeeeee1.github.io/projects/gem-puzzle/)
 + [rs-css](https://yeeeeee1.github.io/projects/rs-css/)
