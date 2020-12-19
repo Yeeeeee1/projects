@@ -8,5 +8,5 @@ https://rslang-team9-yaroslavbig.netlify.app/
 [shelter](https://yeeeeee1.github.io/projects/shelter/pages/main/main.html)
 [webdev](https://yeeeeee1.github.io/projects/webdev/)
 # Проекты делавшиеся давно
-[Fancy-weather](https://yeeeeee1.github.io/projects/Fancy-weather/)
-[Movie-search](https://yeeeeee1.github.io/projects/movie-search/)
++ [Fancy-weather](https://yeeeeee1.github.io/projects/Fancy-weather/)
++ [Movie-search](https://yeeeeee1.github.io/projects/movie-search/)
