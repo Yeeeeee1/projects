@@ -10,3 +10,7 @@
 # Проекты делавшиеся давно
 + [Fancy-weather](https://yeeeeee1.github.io/projects/Fancy-weather/)
 + [Movie-search](https://yeeeeee1.github.io/projects/movie-search/)
++ [Singolo](https://yeeeeee1.github.io/projects/singolo-DOM/)
++ [Codejam-canvas](https://yeeeeee1.github.io/projects/Codejam-canvas/)
++ [Codejam-DOM](https://yeeeeee1.github.io/projects/Codejam-DOM/)
++ [Theyalow](https://yeeeeee1.github.io/projects/theyalow/)
