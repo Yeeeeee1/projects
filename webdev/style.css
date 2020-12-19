@@ -1,0 +1,414 @@
+body {
+  width: 1600px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.header {
+  width: 1600px;
+  height: 95px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.greeting-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1600px;
+  height: 744px;
+  background-image: url(assets/bg-image-wrapper.png);
+}
+
+.header-item-left:first-child {
+  margin-right: 100px;
+  color: white;
+  text-decoration: underline;
+}
+
+.header-item-left {
+  margin-right: 100px;
+  color: #cdcdcd;
+  text-decoration: none;
+}
+
+.header-item-right {
+  margin-left: 100px;
+  color: #cdcdcd;
+  text-decoration: none;
+}
+
+.header-item-left:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.header-item-right:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.greeting-name {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: 5px;
+  padding-top: 136px;
+  margin: 0;
+}
+
+.greeting-paragraph {
+  color: white;
+  font-size: 18px;
+  width: 504px;
+  height: 50px;
+  text-align: center;
+}
+
+.greeting-button {
+  width: 184px;
+  height: 46px;
+  border: none;
+  background-color: #00afdb;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: 0;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.greeting-socials {
+  width: 170px;
+  height: 20px;
+  margin-top: 184px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.greeting-socials-item {
+  cursor: pointer;
+}
+
+.rapresent-block {
+  width: 1600px;
+  height: 842px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-image-1 {
+  margin-right: 145px;
+  margin-bottom: 20px;
+}
+
+.rapresent-content {
+  width: 407px;
+  height: 233px;
+  font-size: 14px;
+  margin-left: 145px;
+  margin-bottom: 50px;
+}
+
+.rapresent-name {
+  color: #373737;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.rapresent-button {
+  width: 184px;
+  height: 46px;
+  border: none;
+  background-color: #00afdb;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: 0;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.comunity-block {
+  width: 1600px;
+  height: 504px;
+  background-color: #f5f6f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our-comunity-block {
+  width: 298px;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 270px;
+  margin-bottom: 20px;
+}
+
+.our-comunity-name {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3.5px;
+  font-weight: bold;
+  color: #373737;
+}
+
+.our-comunity-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: -1px;
+}
+
+.our-comunity-slider {
+  width: 894px;
+  height: 244px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-comunity-slider-not-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.slider-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 270px;
+}
+
+.slider-numbers {
+  cursor: pointer;
+  color: #373737;
+  font-size: 23px;
+  margin-left: 3px;
+}
+
+.sign-up-block {
+  width: 1600px;
+  height: 598px;
+  background-image: url(assets/pexels-christina-morillo-11816751.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.implement-block {
+  width: 1600px;
+  height: 842px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-image-2 {
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.implement-content {
+  width: 407px;
+  height: 233px;
+  font-size: 14px;
+  margin-right: 310px;
+}
+
+.implement-name {
+  color: #373737;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.implement-button {
+  width: 184px;
+  height: 46px;
+  border: none;
+  background-color: #00afdb;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: 0;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.sign-up-name {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.sign-up-input-block {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-input {
+  width: 340px;
+  height: 46px;
+  outline: 0;
+  border: 0;
+}
+
+.sign-up-input::placeholder {
+  color: black;
+  text-indent: 23px;
+}
+
+.sign-up-input-button {
+  width: 66px;
+  height: 48px;
+  outline: 0;
+  border: none;
+  background-color: #00afdb;
+  cursor: pointer;
+  background-image: url(assets/fa-check.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.download-block {
+  width: 1600px;
+  height: 468px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f5f6f7;
+}
+
+.download-name {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.download-text {
+  text-align: center;
+  font-size: 14px;
+}
+
+.download-text-block {
+  width: 483px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.stores-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 50px;
+  margin-bottom: 90px;
+}
+
+.store-button {
+  width: 128px;
+  height: 50px;
+  border: none;
+  outline: 0;
+  background-color: #00afdb;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.app-store {
+  width: 60px;
+  height: 50px;
+  border: none;
+  outline: 0;
+  background-color: #009cc2;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.play-market {
+  width: 60px;
+  height: 50px;
+  border: none;
+  outline: 0;
+  background-color: #009cc2;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.blocks-for-stores {
+  width: 188px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 1600px;
+  height: 184px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.others-block {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 14px;
+  margin-right: 400px;
+  margin-bottom: 15px;
+}
+
+.copyright {
+  color: #818181;
+  margin-left: 360px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.footer-logo {
+  width: 44px;
+  height: 45px;
+  margin-bottom: 17px;
+  margin-right: 110px;
+}
+
+.word-with-border {
+  padding: 0px 20px 0px 20px;
+  border-right: 1px solid #4e4e4e;
+  border-left: 1px solid #4e4e4e;
+}
