@@ -7,6 +7,7 @@
 + [calculator](https://yeeeeee1.github.io/projects/calculator/)
 + [shelter](https://yeeeeee1.github.io/projects/shelter/pages/main/main.html)
 + [webdev](https://yeeeeee1.github.io/projects/webdev/)
++ [Virtual-keyboard](https://yeeeeee1.github.io/projects/virtual-keyboard/)
 # Проекты делавшиеся давно
 + [Fancy-weather](https://yeeeeee1.github.io/projects/Fancy-weather/)
 + [Movie-search](https://yeeeeee1.github.io/projects/movie-search/)
