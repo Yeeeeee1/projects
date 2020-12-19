@@ -1,0 +1,35 @@
+@import '../../../../theme/colors';
+.timeline-wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+  @media screen and (max-width: 1024px) {
+    max-width: 60%;
+  }
+  @media screen and (max-width: 600px) {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .timeline {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    &__header {
+      cursor: pointer;
+      color: $primary-white;
+      text-shadow: 1px 1px $secondary-black;
+      box-shadow: 0 4px 8px #00000033;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    &__description {
+      box-shadow: 0 4px 8px #00000033;
+      font-size: 18px;
+      letter-spacing: 1.7px;
+    }
+    &__dot {
+      background-color: $secondary-blue;
+      box-shadow: 0 4px 8px #00000033;
+      cursor: pointer;
+    }
+  }
+}

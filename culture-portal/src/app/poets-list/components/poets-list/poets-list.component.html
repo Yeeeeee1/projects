@@ -1,0 +1,28 @@
+<div class="poets-list">
+  <div class="poets-list__search">
+    <input
+      matInput
+      [(ngModel)]="keyWord"
+      type="text"
+      placeholder="{{ 'POETS_LIST.INPUT.placeholder' | translate }}"
+    >
+  </div>
+  <div class="opacity-block">
+    <div class="poets-list__wrapper">
+        <div
+          *ngFor="let author of authorsList | searchAuthor: keyWord; let i = index"
+          class="list">
+          <span
+            [style.paddingLeft]="i * 20 + 'px'"
+            (mouseenter)="selectAuthor(author.id)"
+            (click)="goToDetailedPage(author.id)">
+              {{ author.name }}
+          </span>
+          <div class="photo" *ngIf="selected === author.id">
+            <img @show [src]="author.photo" alt="author">
+          </div>
+        </div>
+      <div class="skewed"></div>
+    </div>
+  </div>
+</div>

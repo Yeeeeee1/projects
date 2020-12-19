@@ -1,0 +1,50 @@
+<div class="detail-container">
+  <figure >
+    <h1 class="detail-title">
+      {{ author.name }}
+    </h1>
+    <img width="300"
+      alt="author.name"
+      [src]="author.photo"
+      class="boxShadow"
+      align="center">
+    <figcaption class="figure-caption">
+      <span><strong>{{ author.liveTime }}</strong></span>
+      <p>{{ author.biography }}</p>
+    </figcaption>
+  </figure>
+  <div class="timelineContainer">
+    <h2 class="authorDetail__sectionTitle">{{ "AUTHOR_DETAIL.H2.TIMELINE" | translate }}</h2>
+    <app-timeline [author]="author"></app-timeline>
+  </div>
+  <div class="timelineContainer">
+    <h2 class="authorDetail__sectionTitle">{{ "AUTHOR_DETAIL.H2.WORKS" | translate }}</h2>
+    <app-work-list [workList]="author.works"></app-work-list>
+  </div>
+  <div class="videoContainer" *ngIf="author.youtube">
+    <h2 class="authorDetail__sectionTitle">{{ "AUTHOR_DETAIL.H2.VIDEO" | translate }}</h2>
+    <div
+      class="overlay"
+      (click)="overlayClicked()"
+      [style.display]="isVisible ? 'block' : 'none'">
+      <div class="modal" #modal>
+        <app-video [videoUrl]="author.youtube" class="boxShadow"></app-video>
+      </div>
+    </div>
+    <a (click)="showVideo()" class="video-button">
+      <span class="bull">&bull;</span>
+      <span>{{ "AUTHOR_DETAIL.A.SPAN" | translate }}</span>
+      <span class="bull">&bull;</span>
+    </a>
+  </div>
+  <div class="mapContainer">
+    <h2 class="authorDetail__sectionTitle">{{ "AUTHOR_DETAIL.H2.ACTIVITY" | translate }}</h2>
+    <div class="map">
+      <app-map [lng]="author.activity[0].lon" [lat]="author.activity[0].lat"></app-map>
+    </div>
+  </div>
+  <div class="galleryContainer">
+    <h2 class="authorDetail__sectionTitle">{{ "AUTHOR_DETAIL.H2.GALERY" | translate }}</h2>
+    <app-gallery [gallery]="gallery"></app-gallery>
+  </div>
+</div>
